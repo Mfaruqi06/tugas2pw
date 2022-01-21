@@ -1,0 +1,71 @@
+.navbar {
+  margin-bottom: 10px;
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+#home .countainer {
+  border: solid;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.row .dina {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 60%;
+  margin: 20px;
+  margin-top: -2%;
+}
+
+.row .adel {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 60%;
+  margin: 20px;
+  margin-top: -2%;
+}
+
+.row .hana {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 60%;
+  margin: 20px;
+  margin-top: -2%;
+}
+.row .fida {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 60%;
+  margin: 20px;
+  margin-top: -2%;
+}
+#news {
+  margin: 100px;
+}
+
+.footer {
+  border-top: solid;
+}

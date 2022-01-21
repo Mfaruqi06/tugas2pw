@@ -1,0 +1,107 @@
+.sidebar {
+  margin: 5px;
+  background-color: rgb(45, 51, 36);
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+}
+header {
+  margin: 10px;
+}
+img {
+  width: 50;
+  height: 50;
+}
+input {
+  margin: 5px;
+}
+.container {
+  grid-column: 2;
+}
+section {
+  height: solid;
+}
+
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 500px;
+}
+
+#customers td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+  background-color: #ddd;
+}
+
+#customers th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+body {
+  font-family: sans-serif;
+  background-color: whitesmoke;
+  font-size: 16px;
+}
+
+.countainer {
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 3rem;
+  border: 1px solid yellowgreen;
+  background-color: rgba(0, 0, 0, 0.884);
+}
+.input {
+  border-radius: 50;
+  appearance: none;
+  display: block;
+  width: 100%;
+  color: black;
+  border: 1px solid whitesmoke;
+  border-radius: 25rem;
+  margin: 10px;
+  margin-left: -1rem;
+}
+
+.button {
+  background-color: blue;
+  border: 2px solid darkblue;
+  border-radius: 4px;
+  color: #fff;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  width: 10ex;
+}
+
+.d-flex {
+  appearance: none;
+  display: flex;
+  width: 50%;
+  color: whitesmoke;
+  margin: 10px;
+  margin-left: 180px;
+  margin-top: -30px;
+}
+
+.input .label {
+  color: whitesmoke;
+}
+
+.box li {
+  border: bottom;
+}
